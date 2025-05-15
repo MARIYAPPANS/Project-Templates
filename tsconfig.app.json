@@ -21,7 +21,21 @@
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    /* Absolute imports */
+    "baseUrl": "./",
+    "paths": {
+      "@utils/*": ["utils/*"],
+      "@components/*": ["src/components/*"],
+      "@assets/*": ["public/assets/*"],
+      "@services/*":["services/*"]
+    }
   },
-  "include": ["src"]
+  "include": [
+    "src",
+    "services/global.d.ts",
+    "utils/Interface",
+    "utils/interfaces.ts"
+  ]
 }
