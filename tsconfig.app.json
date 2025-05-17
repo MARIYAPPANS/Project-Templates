@@ -29,9 +29,19 @@
       "@utils/*": ["utils/*"],
       "@components/*": ["src/components/*"],
       "@assets/*": ["public/assets/*"],
+<<<<<<< HEAD
+=======
+      "@services/*":["services/*"]
+>>>>>>> 193e003c3554b5e63e4f64f199c6d0adf108366e
     }
   },
   "include": [
     "src",
+<<<<<<< HEAD
+=======
+    "services/global.d.ts",
+    "utils/Interface",
+    "utils/interfaces.ts"
+>>>>>>> 193e003c3554b5e63e4f64f199c6d0adf108366e
   ]
 }
